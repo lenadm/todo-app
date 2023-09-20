@@ -1,0 +1,50 @@
+body {
+    background-color: #1e1f22;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.searchdiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.searchbar {
+    color: white;
+    background-color: #313338;
+    width: 40%;
+    margin:0;
+    height: 5vh;
+    border: 0;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    padding-left: 10px;
+}
+
+.enter {
+    background-color: #313338;
+    width: 4%;
+    border: 0;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.actionSquare {
+    height:89vh;
+    width: 99vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.list {
+    background-size: 100% 10vh;
+    background-image: linear-gradient(to bottom, #000 1px, transparent 1px);
+    background-color: #313338;
+    height: 100%;
+    width: 40%;
+}
