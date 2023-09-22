@@ -6,13 +6,13 @@ button:hover {
     cursor: pointer;
 }
 
-.searchdiv {
+.searchDiv {
     display: flex;
     justify-content: center;
     margin-top: 60px;
 }
 
-.searchbar {
+.searchBar {
     color: white;
     background-color: #313338;
     width: 40%;
@@ -32,19 +32,32 @@ button:hover {
     border-bottom-right-radius: 60px;
 }
 
-.actionSquare {
+.listContainer {
     height:89vh;
     width: 99vw;
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     margin-top: 5px;
 }
 
 .list {
-    background-size: 100% 10vh;
-    background-image: linear-gradient(to bottom, #000 1px, transparent 1px);
+    margin-left: 29vw;
+    margin-right: 30vw;
     background-color: #313338;
-    height: 100%;
-    width: 40%;
+    height: 88vh;
+    width: 40vw;
+}
+
+li {
+    color: white;
+    font-family:sans-serif;
+    font-size: 50px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+li:hover {
+    text-decoration: line-through;
+    color:grey;
 }
